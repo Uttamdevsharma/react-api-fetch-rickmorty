@@ -1,5 +1,7 @@
 import { useState } from "react"
 import Person from "./components/Person"
+import RicknMorty from "./components/RicknMorty";
+import './App.css'
 
 
 function App() {
@@ -12,11 +14,7 @@ function App() {
   
   return (
     <>
-    
-    <button onClick={Counter}> ADD </button>
-      <Person title = "Hello"  name = "Uttam Sharma" age={18} />
-      <Person name = "Riddi" age={count}/>
-
+    <RicknMorty/>
     </>
   )
 }
