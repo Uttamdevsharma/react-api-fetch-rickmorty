@@ -27,6 +27,7 @@ const RicknMorty = () => {
 console.log(characters)
 
 return (
+    
     <div >
     Total Characters {characterCount}
     
