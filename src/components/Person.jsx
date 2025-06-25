@@ -7,7 +7,7 @@ const Person = ({name,age}) => {
                 age > 18 ?
                 <p>I am married</p>
                 :
-                <p>I am Studying</p>
+                <p>I am Studying NOW</p>
             }
         </div>
     );
